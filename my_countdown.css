@@ -1,0 +1,108 @@
+/*  CSS Document                             */
+
+
+/*  Written by Chris Converse for Lynda.com  */
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #092f6e;
+    color: #fff;
+}
+
+#event {
+    font-size: 16px;
+    font-family: Teko, sans-serif;
+    border: 1px solid rgba(255, 255, 255, .2);
+    width: 520px;
+    background: #2c77ee url('satellite_dish.jpg') no-repeat center bottom;
+    margin: 20px auto;
+    min-height: 600px;
+}
+
+#event .heading {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 0px 8px 0px;
+}
+
+#event h1 {
+    font-size: 4.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 0 -5px;
+    padding: 0;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+#event h2 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6fb5f8;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 9px;
+}
+
+#event .my-countdown .countdown-row {
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+}
+
+#event .my-countdown .countdown-section {
+    display: inline-block;
+    padding: 15px;
+}
+
+#event .my-countdown .countdown-amount {
+    display: block;
+    line-height: 55px;
+    font-size: 3em;
+    color: #fff;
+}
+
+#event .my-countdown .countdown-period {
+    font-size: 0.9em;
+    color: rgb(172, 172, 172);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:525px) {
+    #event {
+        font-size: 12px;
+        width: 300px;
+        margin: 10px auto;
+        min-height: 465px;
+        background-size: 410px auto;
+    }
+    #event .heading {
+        padding: 12px 0px 8px 0px;
+    }
+    #event h1 {
+        line-height: 40px;
+        font-size: 3.7em;
+    }
+    #event h2 {
+        line-height: 22px;
+        letter-spacing: 5px;
+    }
+    #event .my-countdown .countdown-row {
+        font-size: 1.3em;
+    }
+    #event .my-countdown .countdown-section {
+        padding: 10px;
+    }
+    #event .my-countdown .countdown-amount {
+        line-height: 30px;
+    }
+    #event .my-countdown .countdown-period {
+        letter-spacing: 1.5px;
+    }
+}
